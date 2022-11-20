@@ -11,16 +11,25 @@ export default function Home() {
     <>
       <React.Fragment>
         <CssBaseline />
-        <Container maxWidth="sm">
-          <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }}>
+        <Container  maxWidth="sm">
+          <Box className="box">
             <tr className="description">
-              <td>Dia</td>
-              <td>Horário Entrada</td>
-              <td>Horário Saída</td>
-              <td>Horas trabalhadas</td>
+              <td>DIA</td>
+              <td>ENTRADA</td>
+              <td>SAÍDA</td>
+              <td>TOTAL</td>
             </tr>
             <Hours />
             <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            <Hours />
+            
           </Box>
         </Container>
       </React.Fragment>
