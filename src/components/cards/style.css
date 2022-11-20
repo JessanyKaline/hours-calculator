@@ -1,0 +1,15 @@
+
+tr {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+
+output{
+    background-color: red;
+    border: 2px;
+    border-color: black;
+}
