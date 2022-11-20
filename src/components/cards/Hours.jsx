@@ -45,9 +45,9 @@ export default function Hours() {
               onChange={(e) => setDepartureTime(e.target.value)}
             />
 
-            <output type="time" className="result">
+            <div type="time" className="result">
                {horas} : {minutos} 
-            </output>
+            </div>
           </tr>
        </>
         

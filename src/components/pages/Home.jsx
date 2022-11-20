@@ -13,12 +13,13 @@ export default function Home() {
         <CssBaseline />
         <Container maxWidth="sm">
           <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }}>
-            <tr>
+            <tr className="description">
               <td>Dia</td>
               <td>Horário Entrada</td>
               <td>Horário Saída</td>
               <td>Horas trabalhadas</td>
             </tr>
+            <Hours />
             <Hours />
           </Box>
         </Container>
