@@ -5,7 +5,7 @@ import React from "react";
 export default function Hours() { 
   const [entryTime, setEntryTime] = React.useState("");
   const [departureTime, setDepartureTime] = React.useState("");
-  let   [horas, setHoras] = React.useState("");
+  //let   [horas, setHoras] = React.useState("");
   
 
   function parse(horario) {
