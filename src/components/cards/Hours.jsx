@@ -53,7 +53,7 @@ export default function Hours() {
           />
 
           <div type="time" value={horas} className="result">
-            {horas}: {minutos}
+            {horas ? horas : "00"}: {minutos ? minutos : "00"}
           </div>
         </tr>
       </>
