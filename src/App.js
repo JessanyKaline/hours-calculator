@@ -7,7 +7,7 @@ function App() {
     <div
       className="background"
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${background})`
       }}
     >
       <Home />
